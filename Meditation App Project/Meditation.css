@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .app {
+    height: 84vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .time-select,
+  .sound-picker {
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  h1{
+    font-family: 'Redressed', cursive;
+    padding-left: 10px;
+    margin-bottom: 0%;
+    font-size: 60px;
+    color:rgb(238, 234, 212);
+    text-shadow: 3px 3px rgb(38, 131, 126);
+    text-decoration: underline;
+  }
+
+  h2{
+    font-family: 'Redressed', cursive;
+    color:aliceblue;
+    padding-left: 10px;
+  }
+  .time-select button,
+  .sound-picker button {
+    color: white;
+    width: 30%;
+    height: 10%;
+    background: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: all 0.5s ease;
+  }
+  
+  .sound-picker button {
+    border: none;
+    height: 90px;
+    width: 90px;
+    padding: 17px;
+    border-radius: 50%;
+  }
+  .sound-picker button:nth-child(1) {
+    background: #4972a1;
+  }
+  .sound-picker button:nth-child(2) {
+    background: #a14f49;
+  }
+  .sound-picker button:nth-child(3) {
+    background: #7fccaf;
+  }
+  .sound-picker button:nth-child(4) {
+    background: #d7df6d;
+  }
+  .sound-picker button img {
+    height: 100%;
+  }
+  
+  .sound-picker button:hover{
+    background: rgb(233, 152, 59);
+  }
+  .time-select button:hover {
+    background: white;
+    color: black;
+  }
+  
+  .player-container {
+    position: relative;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .play{
+      margin-bottom:0px;
+      margin-top: 120px;
+  }
+
+  .replay{
+    margin-top: 0px;
+    margin-bottom: 90px;
+  }
+  .player-container svg {
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    pointer-events: none;
+  }
+  .player-container svg circle {
+    transition: all 0.2s ease-in-out;
+  }
+  .time-display {
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    bottom: 10%;
+  }
+  
+  video {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -10;
+  }
