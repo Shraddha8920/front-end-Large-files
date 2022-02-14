@@ -4,4 +4,4 @@ This is the repository for the projects done in Front-End.
 
 | Project                                                                                                                     | Live Demo                                                                         |
 | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| [Meditation App](https://github.com/Shraddha8920/Front-end/tree/main/Assignment1)                             | [Live Demo](https://shraddha8920.github.io/Front-end/Assignment1/Assignment1.html)               |
+| [Meditation App](https://github.com/Shraddha8920/Large-files/tree/main/Meditation%20App%20Project)                             | [Live Demo](https://shraddha8920.github.io/Large-files/Meditation%20App%20Project/Meditation.html)               |
